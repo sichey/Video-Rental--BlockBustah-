@@ -1,4 +1,4 @@
-📼 **BlockBustah** - Online Video Rental Platform
+# 📼 **BlockBustah** - Online Video Rental Platform
 BlockBustah is a video rental website built using PHP, JavaScript, HTML/CSS, and a MySQL database. It offers a seamless platform for users to rent and return movies and provides an admin panel to manage the movie catalog.
 
 🚀 Features
@@ -11,38 +11,26 @@ BlockBustah is a video rental website built using PHP, JavaScript, HTML/CSS, and
 
 ![Image](https://github.com/user-attachments/assets/f2a1e282-5b44-4fd0-a883-3d25510376e7)
 
-🎬 For Users
-Movie Rental: Browse, select, and rent movies for a customizable duration.
+##🎬 For Users
+###Movie Rental: Browse, select, and rent movies for a customizable duration.
+###Return Movies: Return movies and manage rental history.
+###Live Search and Filters: Filter movies by release date, genre, rating, and price.
+###Rental Modal: View trailer, pricing, and rent movies through a clean modal interface.
+###Account Balance Management: Users can view their balance and spend it for rentals.
 
-Return Movies: Return movies and manage rental history.
+##🔐 User Experience
+###Users are prompted to login before renting.
+###Rental modal displays trailer, rating, pricing, and total cost.
+###Movie cards show Out of Stock if unavailable.
+###Dynamic search and filtering of movies.
+###Login/Register Modals: Popup login and registration interfaces.
+###Access Control: Rent button only works when logged in.
 
-Live Search and Filters: Filter movies by release date, genre, rating, and price.
-
-Rental Modal: View trailer, pricing, and rent movies through a clean modal interface.
-
-Account Balance Management: Users can view their balance and spend it for rentals.
-
-🔐 User Experience
-Users are prompted to login before renting.
-
-Rental modal displays trailer, rating, pricing, and total cost.
-
-Movie cards show Out of Stock if unavailable.
-
-Dynamic search and filtering of movies.
-
-Login/Register Modals: Popup login and registration interfaces.
-
-Access Control: Rent button only works when logged in.
-
-⚙️ Admin Panel
-Add New Movies
-
-Edit Existing Movies
-
-Delete Movies
-
-Manage Movie Availability
+##⚙️ Admin Panel
+###Add New Movies
+###Edit Existing Movies
+###Delete Movies
+###Manage Movie Availability
 
 ![Image](https://github.com/user-attachments/assets/923c1002-93f4-430d-aa4e-fbe0fdd84492)
 
@@ -53,19 +41,4 @@ Manage Movie Availability
 | MySQL      | Persistent data storage               |
 | HTML/CSS   | Frontend rendering                    |
 | jQuery     | Simplified DOM operations and AJAX    |
-
-blockbustah/
-├── index.php              # Main landing page with movie listings
-├── admin_panel.php        # Admin interface for movie management
-├── scripts.js             # JavaScript for modals, rentals, filters
-├── update_balance.php     # Backend for updating user balance (POST)
-├── process_rental.php     # Backend for processing movie rentals
-├── rental_history.php     # Returns user's rental history (JSON)
-├── filter.php             # AJAX handler for filtering movies
-├── assets/
-│   ├── css/
-│   ├── images/
-│   └── trailers/
-└── db/
-    └── database.sql       # MySQL database schema
 
