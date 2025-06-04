@@ -12,25 +12,25 @@ BlockBustah is a video rental website built using PHP, JavaScript, HTML/CSS, and
 ![Image](https://github.com/user-attachments/assets/f2a1e282-5b44-4fd0-a883-3d25510376e7)
 
 ## 🎬 For Users
-### Movie Rental: #### Browse, select, and rent movies for a customizable duration.
-### Return Movies: #### Return movies and manage rental history.
-### Live Search and Filters: #### Filter movies by release date, genre, rating, and price.
-### Rental Modal: #### View trailer, pricing, and rent movies through a clean modal interface.
-### Account Balance Management: #### Users can view their balance and spend it for rentals.
+Movie Rental: Browse, select, and rent movies for a customizable duration.
+Return Movies: Return movies and manage rental history.
+Live Search and Filters: Filter movies by release date, genre, rating, and price.
+Rental Modal: View trailer, pricing, and rent movies through a clean modal interface.
+Account Balance Management: Users can view their balance and spend it for rentals.
 
 ## 🔐 User Experience
-### Users are prompted to login before renting.
-### Rental modal displays trailer, rating, pricing, and total cost.
-### Movie cards show Out of Stock if unavailable.
-### Dynamic search and filtering of movies.
-### Login/Register Modals: Popup login and registration interfaces.
-### Access Control: Rent button only works when logged in.
+Users are prompted to login before renting.
+Rental modal displays trailer, rating, pricing, and total cost.
+Movie cards show Out of Stock if unavailable.
+Dynamic search and filtering of movies.
+Login/Register Modals: Popup login and registration interfaces.
+Access Control: Rent button only works when logged in.
 
 ## ⚙️ Admin Panel
-### Add New Movies
-### Edit Existing Movies
-### Delete Movies
-### Manage Movie Availability
+Add New Movies
+Edit Existing Movies
+Delete Movies
+Manage Movie Availability
 
 ![Image](https://github.com/user-attachments/assets/923c1002-93f4-430d-aa4e-fbe0fdd84492)
 
