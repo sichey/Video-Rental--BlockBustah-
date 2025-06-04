@@ -1,19 +1,71 @@
-# Video Rental (BlockBustah)
-A simple video rental website
+📼 **BlockBustah ** - Online Video Rental Platform
+BlockBustah is a video rental website built using PHP, JavaScript, HTML/CSS, and a MySQL database. It offers a seamless platform for users to rent and return movies and provides an admin panel to manage the movie catalog.
 
+🚀 Features
 
-![Image](https://github.com/user-attachments/assets/3ebf3320-8808-4757-af6a-1680c07d2724)
+![Image](https://github.com/user-attachments/assets/f8ef436b-8af7-460b-aed3-58c8cba2249e)
 
+![Image](https://github.com/user-attachments/assets/aecac48e-38f3-408a-bd6d-da5e4675ec6e)
 
+![Image](https://github.com/user-attachments/assets/a41a2071-9e85-4661-90d3-13555e9e5aec)
 
+![Image](https://github.com/user-attachments/assets/f2a1e282-5b44-4fd0-a883-3d25510376e7)
 
-![Image](https://github.com/user-attachments/assets/ebdbd9a4-8155-45c2-9cb4-5308d86dda74)
+🎬 For Users
+Movie Rental: Browse, select, and rent movies for a customizable duration.
 
+Return Movies: Return movies and manage rental history.
 
+Live Search and Filters: Filter movies by release date, genre, rating, and price.
 
-![Image](https://github.com/user-attachments/assets/fd1d3737-35e9-4ef1-81b7-1a0047f65711)
+Rental Modal: View trailer, pricing, and rent movies through a clean modal interface.
 
+Account Balance Management: Users can view their balance and spend it for rentals.
 
+🔐 User Experience
+Users are prompted to login before renting.
 
-![Image](https://github.com/user-attachments/assets/f478421d-a01f-4498-b8fd-41dcaf96db43)
+Rental modal displays trailer, rating, pricing, and total cost.
+
+Movie cards show Out of Stock if unavailable.
+
+Dynamic search and filtering of movies.
+
+Login/Register Modals: Popup login and registration interfaces.
+
+Access Control: Rent button only works when logged in.
+
+⚙️ Admin Panel
+Add New Movies
+
+Edit Existing Movies
+
+Delete Movies
+
+Manage Movie Availability
+
+![Image](https://github.com/user-attachments/assets/923c1002-93f4-430d-aa4e-fbe0fdd84492)
+
+| Technology | Purpose                               |
+| ---------- | ------------------------------------- |
+| PHP        | Backend logic, database interaction   |
+| JavaScript | UI Interactions, modals, AJAX filters |
+| MySQL      | Persistent data storage               |
+| HTML/CSS   | Frontend rendering                    |
+| jQuery     | Simplified DOM operations and AJAX    |
+
+blockbustah/
+├── index.php              # Main landing page with movie listings
+├── admin_panel.php        # Admin interface for movie management
+├── scripts.js             # JavaScript for modals, rentals, filters
+├── update_balance.php     # Backend for updating user balance (POST)
+├── process_rental.php     # Backend for processing movie rentals
+├── rental_history.php     # Returns user's rental history (JSON)
+├── filter.php             # AJAX handler for filtering movies
+├── assets/
+│   ├── css/
+│   ├── images/
+│   └── trailers/
+└── db/
+    └── database.sql       # MySQL database schema
 
