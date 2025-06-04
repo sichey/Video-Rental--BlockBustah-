@@ -27,10 +27,10 @@ Login/Register Modals: Popup login and registration interfaces.
 Access Control: Rent button only works when logged in.
 
 ## ⚙️ Admin Panel
-Add New Movies
-Edit Existing Movies
-Delete Movies
-Manage Movie Availability
+- Add New Movies
+- Edit Existing Movies
+- Delete Movies
+- Manage Movie Availability
 
 ![Image](https://github.com/user-attachments/assets/923c1002-93f4-430d-aa4e-fbe0fdd84492)
 
