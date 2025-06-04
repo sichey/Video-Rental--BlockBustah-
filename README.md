@@ -1,4 +1,4 @@
-📼 **BlockBustah ** - Online Video Rental Platform
+📼 **BlockBustah** - Online Video Rental Platform
 BlockBustah is a video rental website built using PHP, JavaScript, HTML/CSS, and a MySQL database. It offers a seamless platform for users to rent and return movies and provides an admin panel to manage the movie catalog.
 
 🚀 Features
